@@ -1,0 +1,38 @@
+{
+  "title": "combo_semicolon_period_quote",
+  "rules": [
+    {
+      "description": ".+' -> semicolon",
+
+      "manipulators": [
+        {
+          "type": "basic",
+
+          "from": {
+            "simultaneous": [
+              { "key_code": "period" },
+              { "key_code": "quote" }
+            ],
+
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+
+          "to": [
+            {
+              "key_code": "semicolon"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

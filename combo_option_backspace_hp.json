@@ -1,0 +1,34 @@
+{
+  "title": "combo_option_backspace_hp",
+  "rules": [
+    {
+      "description": "hp -> option+backspace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              { "key_code": "h" },
+              { "key_code": "p" }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace",
+              "modifiers": ["left_option"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

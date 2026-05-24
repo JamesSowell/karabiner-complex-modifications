@@ -1,0 +1,39 @@
+{
+  "title": "combo_shift_enter_h_quote",
+  "rules": [
+    {
+      "description": "h+' -> Shift+Enter",
+
+      "manipulators": [
+        {
+          "type": "basic",
+
+          "from": {
+            "simultaneous": [
+              { "key_code": "h" },
+              { "key_code": "quote" }
+            ],
+
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+
+          "to": [
+            {
+              "key_code": "return_or_enter",
+              "modifiers": ["left_shift"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

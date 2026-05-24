@@ -1,0 +1,126 @@
+{
+  "title": "bFn",
+  "rules": [
+    {
+      "description": "bFn: hold b for layer, tap b for b",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [
+            {
+              "set_variable": {
+                "name": "bfn",
+                "value": 1
+              }
+            }
+          ],
+          "to_after_key_up": [
+            {
+              "set_variable": {
+                "name": "bfn",
+                "value": 0
+              }
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "b"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "bfn",
+              "value": 1
+            }
+          ],
+          "from": { "key_code": "o" },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": ["left_shift"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "bfn",
+              "value": 1
+            }
+          ],
+          "from": { "key_code": "i" },
+          "to": [
+            {
+              "key_code": "0",
+              "modifiers": ["left_shift"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "bfn",
+              "value": 1
+            }
+          ],
+          "from": { "key_code": "e" },
+          "to": [
+            {
+              "key_code": "semicolon",
+              "modifiers": ["left_shift"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "bfn",
+              "value": 1
+            }
+          ],
+          "from": { "key_code": "n" },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "bfn",
+              "value": 1
+            }
+          ],
+          "from": { "key_code": "h" },
+          "to": [
+            {
+              "key_code": "quote"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
