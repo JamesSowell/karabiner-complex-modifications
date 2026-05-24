@@ -11,7 +11,7 @@
           "from": {
             "simultaneous": [
               { "key_code": "t" },
-              { "key_code": "g" }
+              { "key_code": "d" }
             ],
 
             "simultaneous_options": {
@@ -38,8 +38,8 @@
 
           "from": {
             "simultaneous": [
-              { "key_code": "t" },
-              { "key_code": "d" }
+              { "key_code": "s" },
+              { "key_code": "f" }
             ],
 
             "simultaneous_options": {

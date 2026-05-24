@@ -1,0 +1,112 @@
+{
+  "title": "combo_clipboard_left_hand",
+  "rules": [
+    {
+      "description": "Clipboard combos",
+
+      "manipulators": [
+
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              { "key_code": "x" },
+              { "key_code": "v" }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": ["left_command"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              { "key_code": "v" },
+              { "key_code": "f" }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": ["left_command"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              { "key_code": "f" },
+              { "key_code": "d" }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": ["left_command"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              { "key_code": "d" },
+              { "key_code": "q" }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive",
+              "key_up_when": "all",
+              "detect_key_down_uninterruptedly": true
+            },
+            "modifiers": {
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "x",
+              "modifiers": ["left_command"]
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

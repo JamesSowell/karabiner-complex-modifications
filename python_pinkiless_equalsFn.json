@@ -11,114 +11,89 @@
             "modifiers": { "optional": ["any"] }
           },
           "to": [
-            {
-              "set_variable": {
-                "name": "python_pinkiless_equalsfn",
-                "value": 1
-              }
-            }
+            { "set_variable": { "name": "python_pinkiless_equalsfn", "value": 1 } }
           ],
           "to_after_key_up": [
-            {
-              "set_variable": {
-                "name": "python_pinkiless_equalsfn",
-                "value": 0
-              }
-            }
+            { "set_variable": { "name": "python_pinkiless_equalsfn", "value": 0 } }
           ],
           "to_if_alone": [
-            {
-              "key_code": "equal_sign"
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "python_pinkiless_equalsfn",
-              "value": 1
-            }
-          ],
-          "from": { "key_code": "n" }
-          ,
-          "to": [
-            {
-              "key_code": "return_or_enter"
-            }
+            { "key_code": "equal_sign" }
           ]
         },
 
         {
           "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "python_pinkiless_equalsfn",
-              "value": 1
-            }
-          ],
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "n" },
+          "to": [{ "key_code": "return_or_enter" }]
+        },
+        {
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
           "from": { "key_code": "e" },
-          "to": [
-            {
-              "key_code": "semicolon",
-              "modifiers": ["left_shift"]
-            }
-          ]
+          "to": [{ "key_code": "semicolon", "modifiers": ["left_shift"] }]
         },
-
         {
           "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "python_pinkiless_equalsfn",
-              "value": 1
-            }
-          ],
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
           "from": { "key_code": "i" },
-          "to": [
-            {
-              "key_code": "0",
-              "modifiers": ["left_shift"]
-            }
-          ]
+          "to": [{ "key_code": "0", "modifiers": ["left_shift"] }]
         },
-
         {
           "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "python_pinkiless_equalsfn",
-              "value": 1
-            }
-          ],
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
           "from": { "key_code": "o" },
-          "to": [
-            {
-              "key_code": "9",
-              "modifiers": ["left_shift"]
-            }
-          ]
+          "to": [{ "key_code": "9", "modifiers": ["left_shift"] }]
+        },
+        {
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "p" },
+          "to": [{ "key_code": "delete_or_backspace" }]
         },
 
         {
+          "description": "extra: h -> <",
           "type": "basic",
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "python_pinkiless_equalsfn",
-              "value": 1
-            }
-          ],
-          "from": { "key_code": "m" },
-          "to": [
-            {
-              "key_code": "delete_or_backspace"
-            }
-          ]
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "h" },
+          "to": [{ "key_code": "comma", "modifiers": ["left_shift"] }]
+        },
+        {
+          "description": "extra: quote -> &",
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "quote" },
+          "to": [{ "key_code": "7", "modifiers": ["left_shift"] }]
+        },
+        {
+          "description": "extra: y -> ^",
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "y" },
+          "to": [{ "key_code": "6", "modifiers": ["left_shift"] }]
+        },
+        {
+          "description": "extra: period -> >",
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "period" },
+          "to": [{ "key_code": "period", "modifiers": ["left_shift"] }]
+        },
+        {
+          "description": "extra: open_bracket -> ?",
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1 }],
+          "from": { "key_code": "open_bracket" },
+          "to": [{ "key_code": "slash", "modifiers": ["left_shift"] }]
+        },
+
+        {
+          "description": "extra: 8 -> *",
+          "type": "basic",
+          "conditions": [{ "type": "variable_if", "name": "python_pinkiless_equalsfn", "value": 1}],
+          "from": { "key_code": "8" },
+          "to": [{ "key_code": "8", "modifiers": ["left_shift"]}]
         }
       ]
     }
