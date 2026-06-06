@@ -74,11 +74,11 @@
           "to": [{ "key_code": "6", "modifiers": ["left_shift"] }]
         },
         {
-          "description": "extra: period -> >",
+          "description": "extra: period -> 1",
           "type": "basic",
           "conditions": [{ "type": "variable_if", "name": "python_pinkiless_bfn", "value": 1 }],
           "from": { "key_code": "period" },
-          "to": [{ "key_code": "period", "modifiers": ["left_shift"] }]
+          "to": { "key_code": "1" }
         },
         {
           "description": "extra: open_bracket -> ?",
