@@ -171,6 +171,25 @@
               "modifiers": ["left_shift"]
             }
           ]
+        },
+
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "bitmask_layer",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "y"
+          },
+          "to": [
+            {
+              "key_code": "hyphen"
+            }
+          ]
         }
       ]
     }
