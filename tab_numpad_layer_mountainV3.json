@@ -1,8 +1,8 @@
 {
-  "title": "tab_numpad_layer",
+  "title": "tab_numpad_layer_mountainV3",
   "rules": [
     {
-      "description": "Hold tab for numpad layer",
+      "description": "Hold tab for numpad layer mountainV3",
       "manipulators": [
         {
           "type": "basic",
@@ -26,13 +26,13 @@
         {
           "type": "basic",
           "conditions": [{ "type": "variable_if", "name": "tab_numpad_layer", "value": 1 }],
-          "from": { "key_code": "m" },
+          "from": { "key_code": "o" },
           "to": [{ "key_code": "7" }]
         },
         {
           "type": "basic",
           "conditions": [{ "type": "variable_if", "name": "tab_numpad_layer", "value": 1 }],
-          "from": { "key_code": "o" },
+          "from": { "key_code": "m" },
           "to": [{ "key_code": "8" }]
         },
         {
@@ -85,6 +85,102 @@
           "conditions": [{ "type": "variable_if", "name": "tab_numpad_layer", "value": 1 }],
           "from": { "key_code": "escape" },
           "to": [{ "key_code": "0" }]
+        },
+        {
+        "type": "basic",
+        "conditions": [
+            {
+            "type": "variable_if",
+            "name": "tab_numpad_layer",
+            "value": 1
+            }
+        ],
+        "from": {
+            "key_code": "8"
+        },
+        "to": [
+            {
+            "key_code": "8",
+            "modifiers": [
+                "left_shift"
+            ]
+            }
+        ]
+        },
+        {
+        "type": "basic",
+        "conditions": [
+            {
+            "type": "variable_if",
+            "name": "tab_numpad_layer",
+            "value": 1
+            }
+        ],
+        "from": {
+            "key_code": "right_shift"
+        },
+        "to": [
+            {
+            "key_code": "return_or_enter"
+            }
+        ]
+        },
+        {
+        "type": "basic",
+        "conditions": [
+            {
+            "type": "variable_if",
+            "name": "tab_numpad_layer",
+            "value": 1
+            }
+        ],
+        "from": {
+            "key_code": "y"
+        },
+        "to": [
+            {
+            "key_code": "equal_sign",
+            "modifiers": [
+                "left_shift"
+            ]
+            }
+        ]
+        },
+        {
+        "type": "basic",
+        "conditions": [
+            {
+            "type": "variable_if",
+            "name": "tab_numpad_layer",
+            "value": 1
+            }
+        ],
+        "from": {
+            "key_code": "open_bracket"
+        },
+        "to": [
+            {
+            "key_code": "hyphen"
+            }
+        ]
+        },
+        {
+        "type": "basic",
+        "conditions": [
+            {
+            "type": "variable_if",
+            "name": "tab_numpad_layer",
+            "value": 1
+            }
+        ],
+        "from": {
+            "key_code": "right_option"
+        },
+        "to": [
+            {
+            "key_code": "period"
+            }
+        ]
         }
       ]
     }
