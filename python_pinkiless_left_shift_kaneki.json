@@ -1,8 +1,8 @@
 {
-  "title": "python_pinkiless_left_shift_mountainV2",
+  "title": "python_pinkiless_left_shift_kaneki",
   "rules": [
     {
-      "description": "python_pinkiless_left_shift_mountainV2: hold left_shift for core symbol layer",
+      "description": "python_pinkiless_left_shift_kaneki: hold left_shift for core symbol layer",
       "manipulators": [
         {
           "type": "basic",
