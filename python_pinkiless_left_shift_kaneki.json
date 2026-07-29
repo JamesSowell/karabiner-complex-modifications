@@ -17,7 +17,7 @@
           "to": [
             {
               "set_variable": {
-                "name": "python_pinkiless_left_shift_mountainV2",
+                "name": "python_pinkiless_left_shift_kaneki",
                 "value": 1
               }
             }
@@ -25,7 +25,7 @@
           "to_after_key_up": [
             {
               "set_variable": {
-                "name": "python_pinkiless_left_shift_mountainV2",
+                "name": "python_pinkiless_left_shift_kaneki",
                 "value": 0
               }
             }
@@ -36,7 +36,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -54,7 +54,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -75,7 +75,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -93,7 +93,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -114,7 +114,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -135,7 +135,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -156,7 +156,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -177,7 +177,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -198,7 +198,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -219,7 +219,7 @@
         "conditions": [
             {
             "type": "variable_if",
-            "name": "python_pinkiless_left_shift_mountainV2",
+            "name": "python_pinkiless_left_shift_kaneki",
             "value": 1
             }
         ],
@@ -240,7 +240,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -261,7 +261,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -282,7 +282,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -303,7 +303,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -321,7 +321,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -339,7 +339,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -360,7 +360,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -381,7 +381,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -402,7 +402,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -423,7 +423,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -444,7 +444,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -465,7 +465,7 @@
         "conditions": [
             {
             "type": "variable_if",
-            "name": "python_pinkiless_left_shift_mountainV2",
+            "name": "python_pinkiless_left_shift_kaneki",
             "value": 1
             }
         ],
@@ -486,7 +486,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -507,7 +507,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -528,7 +528,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -549,7 +549,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -570,7 +570,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -591,7 +591,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -612,7 +612,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -633,7 +633,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -654,7 +654,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -675,7 +675,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -696,7 +696,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -717,7 +717,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -738,7 +738,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -759,7 +759,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -780,7 +780,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -801,7 +801,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -822,7 +822,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -843,7 +843,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -864,7 +864,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -885,7 +885,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -906,7 +906,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -927,7 +927,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -948,7 +948,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -969,7 +969,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -990,7 +990,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -1011,7 +1011,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -1032,7 +1032,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
@@ -1053,7 +1053,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "python_pinkiless_left_shift_mountainV2",
+              "name": "python_pinkiless_left_shift_kaneki",
               "value": 1
             }
           ],
