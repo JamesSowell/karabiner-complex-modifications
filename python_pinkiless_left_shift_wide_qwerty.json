@@ -215,25 +215,25 @@
           ]
         },
         {
-        "type": "basic",
-        "conditions": [
+          "type": "basic",
+          "conditions": [
             {
-            "type": "variable_if",
-            "name": "python_pinkiless_left_shift_kaneki",
-            "value": 1
+              "type": "variable_if",
+              "name": "python_pinkiless_left_shift_kaneki",
+              "value": 1
             }
-        ],
-        "from": {
+          ],
+          "from": {
             "key_code": "slash"
-        },
-        "to": [
+          },
+          "to": [
             {
-            "key_code": "slash",
-            "modifiers": [
+              "key_code": "slash",
+              "modifiers": [
                 "left_shift"
-            ]
+              ]
             }
-        ]
+          ]
         },
         {
           "type": "basic",
@@ -461,25 +461,25 @@
           ]
         },
         {
-        "type": "basic",
-        "conditions": [
+          "type": "basic",
+          "conditions": [
             {
-            "type": "variable_if",
-            "name": "python_pinkiless_left_shift_kaneki",
-            "value": 1
+              "type": "variable_if",
+              "name": "python_pinkiless_left_shift_kaneki",
+              "value": 1
             }
-        ],
-        "from": {
+          ],
+          "from": {
             "key_code": "grave_accent_and_tilde"
-        },
-        "to": [
+          },
+          "to": [
             {
-            "key_code": "grave_accent_and_tilde",
-            "modifiers": [
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
                 "left_shift"
-            ]
+              ]
             }
-        ]
+          ]
         },
         {
           "type": "basic",
@@ -1063,6 +1063,66 @@
           "to": [
             {
               "key_code": "delete_or_backspace",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "python_pinkiless_left_shift_kaneki",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "h"
+          },
+          "to": [
+            {
+              "key_code": "slash"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "python_pinkiless_left_shift_kaneki",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "f"
+          },
+          "to": [
+            {
+              "key_code": "f",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "python_pinkiless_left_shift_kaneki",
+              "value": 1
+            }
+          ],
+          "from": {
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "key_code": "e",
               "modifiers": [
                 "left_shift"
               ]
