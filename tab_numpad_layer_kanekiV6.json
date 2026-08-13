@@ -1,8 +1,8 @@
 {
-  "title": "tab_numpad_layer_kanekiV4",
+  "title": "tab_numpad_layer_kanekiV6",
   "rules": [
     {
-      "description": "Hold tab for numpad layer - kanekiV4",
+      "description": "Hold tab for numpad layer - kanekiV6",
       "manipulators": [
         {
           "type": "basic",
